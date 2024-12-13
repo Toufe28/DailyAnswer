@@ -1,2 +1,10 @@
-# DailyAnswer
-Stay engaged with LiveArt's ART airdrop by providing daily answers to simple art-related questions. A chance to earn free ART tokens and enhance your knowledge of the art world!
+# Liveart ART airdrop daily answers
+1. **Clone to get:**
+
+   ```bash
+   git clone https://github.com/GangsterGpc/DailyAnswer.git
+   ```
+2. **To Update:**
+    ```bash
+   git pull
+   ```
