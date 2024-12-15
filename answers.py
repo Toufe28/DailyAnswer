@@ -1,46 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "7814": "51000",
-    "7816": "265000",
-    "7812": "43000",
-    "7813": "10000",
-    "7817": "22000",
-    "7815": "13000",
-    "7819": "55000",
-    "7818": "13000",
-    "7821": "15000",
-    "7820": "239000"
+    "7862": "12000",
+    "7868": "83000",
+    "7867": "35000",
+    "7871": "12000",
+    "7864": "208000",
+    "7865": "18000",
+    "7870": "30000",
+    "7869": "76000",
+    "7866": "85000",
+    "7863": "26000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "7805": "Kim WhanKi",
-    "7802": "Pu Ru",
-    "7807": "Alexander Calder",
-    "7806": "Josef Albers",
-    "7804": "Xu Beihong",
-    "7803": "Camille Pissarro",
-    "7809": "Qi Baishi",
-    "7808": "Zhang Daqian",
-    "7811": "Takashi Murakami",
-    "7810": "Wu Guanzhong"
+    "7853": "Huang Binhong",
+    "7854": "Lee Ufan",
+    "7852": "Zhang Daqian",
+    "7855": "Zhou Chunya",
+    "7859": "Georges Braque",
+    "7860": "Camille Pissarro",
+    "7857": "Qi Baishi",
+    "7856": "Sanyu",
+    "7858": "Banksy",
+    "7861": "Pu Ru"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "7795": "$622.9 million",
-    "7793": "$1.0 billion",
-    "7792": "$444.9 million",
-    "7801": "$851.2 million",
-    "7794": "$551.0 million",
-    "7796": "$1.4 billion",
-    "7798": "$315.0 million",
-    "7797": "$1.9 billion",
-    "7799": "$205.6 million",
-    "7800": "$1.0 billion"
+    "7842": "$472.8 million",
+    "7851": "$350.2 million",
+    "7845": "$2.1 billion",
+    "7844": "$1.2 billion",
+    "7848": "$16.0 billion",
+    "7847": "$460.1 million",
+    "7849": "$871.3 million",
+    "7850": "$551.0 million",
+    "7843": "$851.2 million",
+    "7846": "$142.2 million"
 }
     return answers.get(str(card_id), None)
-
