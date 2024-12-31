@@ -43,3 +43,4 @@ def get_artist_market_value_answer(card_id):
     "8648": "$218.8 million"
 }
     return answers.get(str(card_id), None)
+git pull
